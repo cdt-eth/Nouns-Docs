@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Nouns Docs",
   tagline: "Live, Laugh, Nouns.",
-  url: "http://192.168.1.163:3000",
+  url: "https://nouns-docs.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
