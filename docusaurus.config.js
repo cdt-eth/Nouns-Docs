@@ -82,7 +82,7 @@ module.exports = {
         indexName: "nouns",
         contextualSearch: true,
         placeholder: "Quick search for anything.",
-        APPLICATION_ID: "2Z9R9UYHLR",
+        appId: "2Z9R9UYHLR",
       },
       footer: {
         style: "dark",
