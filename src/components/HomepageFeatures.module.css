@@ -8,5 +8,6 @@
 
 .featureSvg {
   height: 130px;
+  height: max-content;
   width: fit-content;
 }
