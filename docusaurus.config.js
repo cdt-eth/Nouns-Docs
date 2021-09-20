@@ -50,13 +50,6 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia: {
-        apiKey: process.env.API_KEY,
-        indexName: "nouns",
-        contextualSearch: true,
-        placeholder: "Quick search for anything.",
-        APPLICATION_ID: process.env.APPLICATION_ID,
-      },
       colorMode: {
         switchConfig: {
           darkIcon: "🕶",
@@ -83,6 +76,13 @@ module.exports = {
             position: "right",
           },
         ],
+      },
+      algolia: {
+        apiKey: "88a8183c8c9397b2098462512fa44b21",
+        indexName: "nouns",
+        contextualSearch: true,
+        placeholder: "Quick search for anything.",
+        APPLICATION_ID: "2Z9R9UYHLR",
       },
       footer: {
         style: "dark",
