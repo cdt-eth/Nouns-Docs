@@ -1,7 +1,7 @@
 {
   "index_name": "nouns",
-  "start_urls": ["http://192.168.1.163:3000/"],
-  "sitemap_urls": ["http://192.168.1.163:3000/sitemap.xml"],
+  "start_urls": ["http://127.0.0.1:3000/"],
+  "sitemap_urls": ["http://127.0.0.1:3000/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": ["/tests"],
   "selectors": {
