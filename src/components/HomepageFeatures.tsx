@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
+    title: "NPM Packages",
     image: "/img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        What dependecies we brought in and what purpose they serve in order to
+        give context to how everything works together.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "React Components",
     image: "/img/undraw_docusaurus_tree.svg",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Every component explained with UI screenshots and <code>import</code>/
+        <code>export</code> details to understand its part in the greater app.
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "State Management",
     image: "/img/undraw_docusaurus_react.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Walkthrough of the auction process, how Redux is used, and how data
+        flows throughout the app.
       </>
     ),
   },
@@ -47,6 +47,14 @@ function Feature({ title, image, description }: FeatureItem) {
       <div className="text--center">
         <img className={styles.featureSvg} alt={title} src={image} />
       </div>
+
+      {/* ANIMATE BOUNCE
+      <div className="stage">
+        <div className="box bounce-5 text--center">
+          <img src={image} alt={title} />
+        </div>
+      </div> */}
+
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
