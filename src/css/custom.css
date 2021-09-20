@@ -54,6 +54,9 @@
   width: 40%;
   padding: 10px;
 }
+.home-button:hover {
+  color: grey;
+}
 
 @media (max-width: 992px) {
   .home-button {
