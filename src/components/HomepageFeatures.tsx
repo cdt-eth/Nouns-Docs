@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "NPM Packages",
-    image: "/img/undraw_docusaurus_mountain.svg",
+    image: "/img/home/box.png",
     description: (
       <>
         What dependecies we brought in and what purpose they serve in order to
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "React Components",
-    image: "/img/undraw_docusaurus_tree.svg",
+    image: "/img/home/void.png",
     description: (
       <>
         Every component explained with UI screenshots and <code>import</code>/
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "State Management",
-    image: "/img/undraw_docusaurus_react.svg",
+    image: "/img/home/chipboard.png",
     description: (
       <>
         Walkthrough of the auction process, how Redux is used, and how data
